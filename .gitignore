@@ -4,3 +4,4 @@ node_modules
 .eslintcache
 vite.config.*.timestamp*
 *lock*
+.idea

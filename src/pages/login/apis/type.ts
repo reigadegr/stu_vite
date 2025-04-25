@@ -6,7 +6,4 @@ export interface LoginRequestData {
   /** 验证码 */
   code: string
 }
-
-export type CaptchaResponseData = ApiResponseData<string>
-
 export type LoginResponseData = ApiResponseData<{ token: string }>
